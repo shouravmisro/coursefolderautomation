@@ -3,9 +3,9 @@ from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
 # Get environment variables
-api_id = os.getenv('API_ID')
-api_hash = os.getenv('API_HASH')
-bot_token = os.getenv('BOT_TOKEN')
+api_id = 21724120
+api_hash = '4936c90454e2951d281eb0176c193875'
+bot_token = '7588623586:AAH8TQ2j3ehncRKnfnQZkqsu8Zdh0Hx4cSg'
 
 # Check if environment variables are set
 if not api_id or not api_hash or not bot_token:
